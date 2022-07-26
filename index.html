@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estagio</title>
+
+     <!--css boostrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="./css/styles.css">
+
+<!--script-->
+<script src="./js/script.js" defer></script>
+
+
+
+</head>
+
+<body>
+    
+
+  
+ 
+      <!--header-->
+    <div class="container-fluid">
+      
+        <header class="row" id="header">
+            <div class="index-image center-image">
+                   
+                <nav id="navbar" class="container">
+                 <div class="col-12"id="link-container">
+                   <img src="../estagio/img/logo-in8-dev.svg"alt="logo"id="logo" >
+     
+                     <a href="#">cadastro</a>
+                     <a href="#">lista</a>
+                     <a href="#">sobre min</a>
+                 
+                 </div>
+                </nav>
+                  <div class="container-fluid">
+                 <div class="row col-12" id="titulo">
+                  <h1 class="display-1 opacity-50">ESTAGIO</h1>
+                  <p><h3 class="opacity-50">PROVA DE SELEÇÃO</h3></p>
+                  </div>
+                </div>
+            </div>
+        </header>
+       
+
+    </div>
+
+    <div class="container-fluid"id="form-container">
+        <div class="row col-12 align-items-center">
+           
+            <h3>CADASTRO</h3>
+             
+            <form id="formulario">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control"id="myNome"name="nome"
+                     placeholder="Digite seu nome">
+                     <label for="text" class="form-label">Digite seu nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control"id="myEmail"value=""name="email"
+                     placeholder="Digite seu e-mail">
+                     <label for="text" class="form-label">Digite seu e-mail</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="date" class="form-control"id="myDate"name="date"
+                     placeholder="Digite sua data de nascimento">
+                     <label for="text" class="form-label"></label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="tel" class="form-control"id="myTel"name="tel"
+                     placeholder="Digite seu telefone">
+                     <label for="tel" class="form-label">(00)00000-0000</label>
+                </div>
+                <input type="button" class="btn btn-primary"onclick="myFunction()"value="CADASTRAR">
+            </form>
+            
+       
+    </div>
+
+    <div class="container-fluid col-10 col-md-8"id="lista">
+        <div class="row">
+            <h4 class="display-5"id="titulocadastro">LISTA DE CADASTRO</h4>
+            <table id="myTable">
+                  <thead>
+                    <tr> 
+                      <th scope="col">#</th>
+                      <th scope="col">nome</th>
+                      <th scope="col">email</th>
+                      <th scope="col">nascimento</th>
+                      <th scope="col">telefone</th>
+                     </tr>
+                  </thead>
+            </table>
+              
+        </div>
+    </div>
+ 
+
+   <!--teste de navbar-->
+
+   <nav class="navbar navbar-expand-md"id="testenavbar">
+    <div class="container-fluid">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 dropdown-menu">
+            
+           
+          <li class="nav-item ">
+            <a class="nav-link" aria-current="page" href="#">cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">lista</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">sobre min</a>
+          </li>       
+          
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+ 
+
+
+    <footer>
+        <div class="container-fluid  p-5" id="rodape">
+            <div class="row ">
+                <h5>Wanderlan Ribeiro da silva</h5>
+                <h5>wanderlanribeirodasilva51@gmail.com</h5>
+                <h5>(31)99160-3061</h5>
+                <h5>Centro universitario Una</h5>
+            </div>
+        </div>
+    </footer>
+
+      
+    
+</body>
+</html>
