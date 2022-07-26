@@ -134,7 +134,7 @@ table, td {
 footer{
     background-image: url('../img/rodape-desktop.jpg');
     color: white;
-    background-repeat: repeat-x;
+    width: 101%;
     
 }
 
